@@ -1,0 +1,4 @@
+# Log directory: deny ALL web access. Logs may contain reset tokens, phone
+# numbers, and Messenger PSIDs — they must never be downloadable.
+Require all denied
+Options -Indexes
